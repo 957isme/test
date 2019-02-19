@@ -5,6 +5,7 @@
 #include<unordered_map>
 #include<algorithm>
 
+//tjiao
 using namespace std;
 
 //dp  huanqian
@@ -240,13 +241,13 @@ void string_op()
 	string str4(str1, 6, 3); // = day
 	//han shu
 	str3.assign(str2, 3, 6);  // = heart
-	str4.assign(str2, 3, string::npos); // = heart go on (´Ó2¿ªÊ¼µ½½áÎ²¸³¸østr4)
+	str4.assign(str2, 3, string::npos); // = heart go on (ï¿½ï¿½2ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Î²ï¿½ï¿½ï¿½ï¿½str4)
 	str4.assign("gaint"); // =gaint
-	str4.assign("nico", 5); // = nico£¬³¬³ö³¤¶È»á·¢ÉúÊ²Ã´¡£¡£¡£
+	str4.assign("nico", 5); // = nicoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È»á·¢ï¿½ï¿½Ê²Ã´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	str4.assign(5, 'x'); // = xxxxx
 	str2.swap(str1);
-	str1 += "sss";//¼Ó¸öC×Ö·û´® 
-	//.insert();erase();clear();replace();length();empty();[ ], at() //´æÈ¡µ¥Ò»×Ö·û 
+	str1 += "sss";//ï¿½Ó¸ï¿½Cï¿½Ö·ï¿½ï¿½ï¿½ 
+	//.insert();erase();clear();replace();length();empty();[ ], at() //ï¿½ï¿½È¡ï¿½ï¿½Ò»ï¿½Ö·ï¿½ 
 	//>>,<<,getline();substr(2,3);find() 
 }
 
@@ -359,11 +360,11 @@ void main()
 	btree* root;
 	root = NULL;
 	create_tree(root);
-	cout << "ÇëÊäÈë²ãÊýk:" << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½k:" << endl;
 	cin >> k;
-	cout << "µÝ¹é±éÀú½á¹û£º" << endl;
+	cout << "ï¿½Ý¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" << endl;
 	kum = count_k(root, k);
-	cout << "µÚ" << k << "²ãµÄ½Úµã¸öÊýÎª£º" << kum<< endl;*/
+	cout << "ï¿½ï¿½" << k << "ï¿½ï¿½Ä½Úµï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" << kum<< endl;*/
 
 
 	for (int i = 11; i > 0; --i)
